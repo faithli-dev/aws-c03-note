@@ -10,14 +10,14 @@
 ## Other Data Models
 
 - [[Database/Other Databases]]
-  - Object storage: S3
-  - Document: DocumentDB
-  - Graph: Neptune
-  - Wide-column: Keyspaces
-  - Time-series: Timestream
-  - Columnar warehouse: Redshift
-  - Search and log analytics: OpenSearch
-  - Ledger: QLDB
+  - [[Database/Other Databases/Object Storage (S3)]]
+  - [[Database/Other Databases/DocumentDB]]
+  - [[Database/Other Databases/Neptune]]
+  - [[Database/Other Databases/Keyspaces]]
+  - [[Database/Other Databases/Timestream]]
+  - [[Database/Other Databases/Redshift]]
+  - [[Database/Other Databases/OpenSearch]]
+  - [[Database/Other Databases/QLDB]]
 
 ## Analytics
 
