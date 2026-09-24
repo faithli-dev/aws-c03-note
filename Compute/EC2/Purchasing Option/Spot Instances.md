@@ -16,4 +16,4 @@
 ## You can only cancel Spot Instance requests that are open, active, or disabled. Cancelling a Spot Request does not terminate instances You must first cancel a Spot Request, and then terminate the associated Spot Instances
 
 
-[[Spot]]
+[[Spot Instances]]
