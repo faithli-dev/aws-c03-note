@@ -1,0 +1,26 @@
+{
+  "id": "conv-1790238678678-cge03shyn",
+  "providerId": "opencode",
+  "title": "fix my format without changing my txt",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1790238678679,
+  "lastActivityAt": 1790238725604,
+  "sessionId": "ses_f2d75915cffeHode7s75o9KP0l",
+  "selectedModel": "opencode:opencode-go/space-bunny-free",
+  "providerState": {
+    "nativeVersion": 1,
+    "databasePath": "/Users/faithli/.local/share/opencode/opencode.db",
+    "nativeConversationContextEstablished": true
+  },
+  "linkedContentPath": "Database/Cache/ElastiCache.md",
+  "usage": {
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 51701,
+    "contextTokens": 51723,
+    "contextWindow": 1048576,
+    "contextWindowIsAuthoritative": true,
+    "inputTokens": 22,
+    "model": "opencode-go/space-bunny-free",
+    "percentage": 5
+  }
+}

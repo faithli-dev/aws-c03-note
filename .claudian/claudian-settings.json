@@ -1,0 +1,156 @@
+{
+  "userName": "",
+  "permissionMode": "yolo",
+  "model": "opencode:opencode-go/space-bunny-free",
+  "thinkingBudget": "high",
+  "effortLevel": "high",
+  "serviceTier": "default",
+  "enableAutoTitleGeneration": true,
+  "titleGenerationLocale": "",
+  "titleGenerationModel": "",
+  "excludedTags": [],
+  "mediaFolder": "",
+  "systemPrompt": "",
+  "sharedEnvironmentVariables": "",
+  "envSnippets": [],
+  "customContextLimits": {},
+  "customModelAliases": {},
+  "keyboardNavigation": {
+    "scrollUpKey": "w",
+    "scrollDownKey": "s",
+    "focusInputKey": "i"
+  },
+  "requireCommandOrControlEnterToSend": false,
+  "locale": "en",
+  "providerConfigs": {
+    "claude": {
+      "enabled": false,
+      "responseStyle": "Default",
+      "safeMode": "acceptEdits",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "loadUserSettings": true,
+      "enableChrome": false,
+      "customModels": "",
+      "defaultModel": "opus",
+      "lastModel": "haiku",
+      "modelEnvironmentType": "",
+      "titleModelEnvironmentType": "",
+      "environmentVariables": "",
+      "environmentHash": ""
+    },
+    "codex": {
+      "enabled": false,
+      "safeMode": "workspace-write",
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "customModels": "",
+      "discoveredModels": [],
+      "modelAliases": {},
+      "visibleModels": null,
+      "enableUltraEffort": false,
+      "responseStyle": "pragmatic",
+      "reasoningSummary": "detailed",
+      "environmentVariables": "",
+      "environmentHash": "",
+      "catalogTimestamp": 0,
+      "catalogFingerprint": "",
+      "installationMethodsByHost": {},
+      "wslDistroOverridesByHost": {}
+    },
+    "grok": {
+      "catalogsByHost": {},
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredReasoningByModel": {},
+      "visibleModels": null
+    },
+    "opencode": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "enabled": true,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "selectedMode": "",
+      "thinkingOptionsByModel": {
+        "opencode-go/space-bunny-free": [
+          {
+            "label": "Low",
+            "value": "low"
+          },
+          {
+            "label": "Medium",
+            "value": "medium"
+          },
+          {
+            "label": "High",
+            "value": "high"
+          },
+          {
+            "label": "Max",
+            "value": "max"
+          },
+          {
+            "label": "Xhigh",
+            "value": "xhigh"
+          }
+        ]
+      },
+      "visibleModels": [
+        "opencode-go/space-bunny-free"
+      ]
+    },
+    "pi": {
+      "cliPath": "",
+      "cliPathsByHost": {},
+      "discoveredModels": [],
+      "enabled": false,
+      "environmentHash": "",
+      "environmentVariables": "",
+      "modelAliases": {},
+      "preferredThinkingByModel": {},
+      "toolMode": "all",
+      "visibleModels": []
+    }
+  },
+  "settingsProvider": "opencode",
+  "lastSelectedChatModel": null,
+  "savedProviderModel": {
+    "claude": "haiku",
+    "opencode": "opencode:opencode-go/space-bunny-free"
+  },
+  "savedProviderEffort": {
+    "claude": "high",
+    "opencode": "high"
+  },
+  "savedProviderServiceTier": {},
+  "savedProviderThinkingBudget": {},
+  "savedProviderPermissionMode": {
+    "claude": "yolo",
+    "opencode": "yolo"
+  },
+  "pendingProviderSessionInvalidations": {},
+  "lastCustomModel": "",
+  "maxWarmAgentProcesses": 5,
+  "enableAutoScroll": true,
+  "showMessageTimestamps": false,
+  "deferMathRenderingDuringStreaming": true,
+  "expandFileEditsByDefault": false,
+  "chatViewPlacement": "right-sidebar",
+  "enableDualPane": true,
+  "dualPaneSide": "right",
+  "restoreTabsOnStartup": true,
+  "collabEnabled": false,
+  "collabProjectsFolder": "workspace",
+  "collabGitPath": "",
+  "sessionManagerOrganization": "list",
+  "sessionManagerSort": "last-updated",
+  "pinnedLinkedContentPaths": [],
+  "hiddenProviderCommands": {}
+}

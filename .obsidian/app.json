@@ -1,0 +1,13 @@
+{
+  "openBehavior": "file:Amazon Web Service.md",
+  "attachmentFolderPath": "Attachments",
+  "showLineNumber": false,
+  "readableLineLength": true,
+  "showInlineTitle": true,
+  "showIndentGuide": true,
+  "foldIndent": true,
+  "propertiesInDocument": "visible",
+  "strictLineBreaks": false,
+  "newFileLocation": "current",
+  "alwaysUpdateLinks": true
+}

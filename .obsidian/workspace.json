@@ -1,0 +1,333 @@
+{
+  "main": {
+    "id": "40d4e271f7d57809",
+    "type": "split",
+    "children": [
+      {
+        "id": "c243dea332c4cc99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c811a79d6effb064",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compute/Scaling/Scaling ＆ Availability.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scaling ＆ Availability"
+            }
+          },
+          {
+            "id": "763c9332e6936da4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Compute/Scaling/Scaling ＆ Availability.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Scaling ＆ Availability"
+            }
+          },
+          {
+            "id": "7fe8411e5c764147",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Local Balancing/Load balancing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Load balancing"
+            }
+          },
+          {
+            "id": "83a455cd830ddcf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Local Balancing/Load balancing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Load balancing"
+            }
+          },
+          {
+            "id": "91a2543d3e9f34bb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Local Balancing/Load balancing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Load balancing"
+            }
+          },
+          {
+            "id": "fc762e1c66884e36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Cache/ElastiCache.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ElastiCache"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4e23d52270324c69",
+    "type": "split",
+    "children": [
+      {
+        "id": "ef1549926a0d554d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "475f4b8f8bf9b72e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "檔案瀏覽器"
+            }
+          },
+          {
+            "id": "608484ab9d3d7032",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#EFS",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜尋"
+            }
+          },
+          {
+            "id": "bd06e70d25140452",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 403.11328125
+  },
+  "right": {
+    "id": "e6d599d094664619",
+    "type": "split",
+    "children": [
+      {
+        "id": "e1a4b753ab2145d5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e8380e3033793562",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "未命名.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向連結"
+            }
+          },
+          {
+            "id": "0d14a0879cd56643",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "未命名.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "對外連結"
+            }
+          },
+          {
+            "id": "4a7940bcae64b669",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "e26c9f5223de6a2c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          },
+          {
+            "id": "f0bba6411d04be94",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "未命名.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大綱"
+            }
+          },
+          {
+            "id": "bfd572bcc521e411",
+            "type": "leaf",
+            "state": {
+              "type": "claudian-view",
+              "state": {
+                "tabWorkspace": {
+                  "version": 1,
+                  "openTabs": [
+                    {
+                      "tabId": "tab-1790238582401-zp6drxl",
+                      "conversationId": "conv-1790238678678-cge03shyn"
+                    }
+                  ],
+                  "activeTabId": "tab-1790238582401-zp6drxl"
+                }
+              },
+              "icon": "bot",
+              "title": "Claudian"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 399.06640625
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "bases:建立新的 base": false,
+      "realclaudian:Open Claudian": false
+    }
+  },
+  "active": "bfd572bcc521e411",
+  "lastOpenFiles": [
+    "Attachments/Pasted image 20260924163406.png",
+    "Attachments/Pasted image 20260924163354.png",
+    "Attachments/Pasted image 20260924163340.png",
+    "Attachments/Pasted image 20260924163331.png",
+    "Attachments/Pasted image 20260924163317.png",
+    "Attachments/Pasted image 20260924163304.png",
+    "Attachments/Pasted image 20260924163250.png",
+    "Database/RDS/RDS & Aurora Security.md",
+    "Database/Cache/ElastiCache.md",
+    "Database/Cache",
+    "Database/RDS/RDS.md",
+    "Database/RDS/Aurora.md",
+    "Database/RDS/RDS Proxy.md",
+    "Attachments/Pasted image 20260924161528.png",
+    "Attachments/Pasted image 20260924161356.png",
+    "Attachments/Pasted image 20260924161202.png",
+    "Attachments/Pasted image 20260924161037.png",
+    "Amazon Web Service.md",
+    "Compute/Scaling/Auto Scaling Group.md",
+    "Local Balancing/Load balancing.md",
+    "Local Balancing/Network Load Balancer.md",
+    "Local Balancing/Application Load Balancer.md",
+    "Local Balancing/Classic Load Balancer.md",
+    "Local Balancing/Elastic Load Balancer.md",
+    "Compute/Scaling/Scaling ＆ Availability.md",
+    "Compute/Scaling/Horizontal Scalability.md",
+    "Compute/Scaling/Vertical Scalability.md",
+    "Compute/EC2/EC2.md",
+    "Compute/Scaling",
+    "Compute/Compute.md",
+    "Compute/ECS.md",
+    "Compute/EKS.md",
+    "Compute/Storage/Elastic File System (EFS)/Elastic File System (EFS).md",
+    "Compute/Storage/EBS vs EFS – Elastic Block Storage.md",
+    "Compute/Storage/Elastic File System (EFS)",
+    "Storage/Storage.md",
+    "Database/Databases.md",
+    "Storage",
+    "Compute/EC2/Purchasing Option/Purchasing Options.md",
+    "Compute/EC2/Purchasing Option/Spot Instances.md",
+    "Compute/Storage/Elastic Block Store (EBS)",
+    "Compute/Storage",
+    "Compute/EC2/Placement Groups",
+    "Compute/EC2/Purchasing Option",
+    "Compute/EC2/Instance Types",
+    "Compute/EC2"
+  ]
+}
