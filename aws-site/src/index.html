@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="zh-Hant" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AWS 服務筆記 — 每個 service 一頁</title>
+    <meta
+      name="description"
+      content="AWS 教學網站：每個服務一頁，包含簡介、與其他服務的互動、重要設定、價錢與考試重點。"
+    />
+    <!-- 注意：favicon 必須用 base64 data URI。用 URL-encode（%3C…）的 SVG data URI 在 Chrome 以 file:// 開啟時會讓整頁永遠停在載入中。 -->
+    <link
+      rel="icon"
+      href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHZpZXdCb3g9JzAgMCAxMDAgMTAwJz48dGV4dCB5PScuOWVtJyBmb250LXNpemU9Jzg4Jz7imIHvuI88L3RleHQ+PC9zdmc+"
+    />
+    <style>
+      /*!__CSS__*/
+    </style>
+    <style>
+      #boot {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang TC', sans-serif;
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        gap: 14px;
+        color: #787774;
+        font-size: 14px;
+        background: #fff;
+      }
+      @media (prefers-color-scheme: dark) {
+        #boot {
+          background: #191919;
+          color: #9b9b9b;
+        }
+      }
+      #boot .dot {
+        width: 34px;
+        height: 34px;
+        border-radius: 8px;
+        background: linear-gradient(135deg, #ff9900, #ffb84d);
+        animation: bootPulse 1.1s ease-in-out infinite;
+      }
+      @keyframes bootPulse {
+        0%,
+        100% {
+          transform: scale(1) rotate(0deg);
+          opacity: 0.85;
+        }
+        50% {
+          transform: scale(1.12) rotate(6deg);
+          opacity: 1;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div id="boot">
+        <div class="dot"></div>
+        <div>正在載入 AWS 服務筆記…</div>
+      </div>
+    </div>
+    <noscript>這個網站需要 JavaScript 才能瀏覽。</noscript>
+    <script>
+      /*!__JS__*/
+    </script>
+  </body>
+</html>

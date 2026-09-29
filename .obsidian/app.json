@@ -9,5 +9,9 @@
   "propertiesInDocument": "visible",
   "strictLineBreaks": false,
   "newFileLocation": "current",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "aws-site/node_modules/",
+    "aws-site/dist/"
+  ]
 }

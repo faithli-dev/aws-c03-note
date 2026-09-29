@@ -1,0 +1,7 @@
+node_modules/
+.shots/
+*.log
+
+# dist/index.html 是交付物，要進版控
+!dist/
+!dist/index.html

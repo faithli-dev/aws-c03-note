@@ -69,30 +69,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Local Balancing/Load balancing.md",
+                "file": "Compute/EC2/Private vs Public IP (IPv4).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Load balancing"
-            }
-          },
-          {
-            "id": "fc762e1c66884e36",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Database/Cache/ElastiCache.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "ElastiCache"
+              "title": "Private vs Public IP (IPv4)"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -245,21 +231,14 @@
             "id": "bfd572bcc521e411",
             "type": "leaf",
             "state": {
-              "type": "claudian-view",
+              "type": "markdown",
               "state": {
-                "tabWorkspace": {
-                  "version": 1,
-                  "openTabs": [
-                    {
-                      "tabId": "tab-1790238582401-zp6drxl",
-                      "conversationId": "conv-1790238678678-cge03shyn"
-                    }
-                  ],
-                  "activeTabId": "tab-1790238582401-zp6drxl"
-                }
+                "file": "Amazon Web Service.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-file",
+              "title": "Amazon Web Service"
             }
           }
         ],
@@ -281,53 +260,53 @@
       "realclaudian:Open Claudian": false
     }
   },
-  "active": "bfd572bcc521e411",
+  "active": "475f4b8f8bf9b72e",
   "lastOpenFiles": [
-    "Attachments/Pasted image 20260924163406.png",
-    "Attachments/Pasted image 20260924163354.png",
-    "Attachments/Pasted image 20260924163340.png",
-    "Attachments/Pasted image 20260924163331.png",
-    "Attachments/Pasted image 20260924163317.png",
-    "Attachments/Pasted image 20260924163304.png",
-    "Attachments/Pasted image 20260924163250.png",
-    "Database/RDS/RDS & Aurora Security.md",
-    "Database/Cache/ElastiCache.md",
-    "Database/Cache",
-    "Database/RDS/RDS.md",
-    "Database/RDS/Aurora.md",
-    "Database/RDS/RDS Proxy.md",
-    "Attachments/Pasted image 20260924161528.png",
-    "Attachments/Pasted image 20260924161356.png",
-    "Attachments/Pasted image 20260924161202.png",
-    "Attachments/Pasted image 20260924161037.png",
-    "Amazon Web Service.md",
-    "Compute/Scaling/Auto Scaling Group.md",
-    "Local Balancing/Load balancing.md",
-    "Local Balancing/Network Load Balancer.md",
-    "Local Balancing/Application Load Balancer.md",
-    "Local Balancing/Classic Load Balancer.md",
-    "Local Balancing/Elastic Load Balancer.md",
-    "Compute/Scaling/Scaling ＆ Availability.md",
-    "Compute/Scaling/Horizontal Scalability.md",
-    "Compute/Scaling/Vertical Scalability.md",
-    "Compute/EC2/EC2.md",
-    "Compute/Scaling",
-    "Compute/Compute.md",
-    "Compute/ECS.md",
-    "Compute/EKS.md",
-    "Compute/Storage/Elastic File System (EFS)/Elastic File System (EFS).md",
-    "Compute/Storage/EBS vs EFS – Elastic Block Storage.md",
-    "Compute/Storage/Elastic File System (EFS)",
-    "Storage/Storage.md",
-    "Database/Databases.md",
-    "Storage",
-    "Compute/EC2/Purchasing Option/Purchasing Options.md",
-    "Compute/EC2/Purchasing Option/Spot Instances.md",
-    "Compute/Storage/Elastic Block Store (EBS)",
-    "Compute/Storage",
-    "Compute/EC2/Placement Groups",
-    "Compute/EC2/Purchasing Option",
-    "Compute/EC2/Instance Types",
-    "Compute/EC2"
+    "index.html",
+    "aws-site/dist/index.html",
+    "AWS 服務筆記網站.md",
+    "aws-site/README.md",
+    "aws-site/build-outside.sh",
+    "aws-site/node_modules/framer-motion/dist/es/render/dom/scroll/utils/offset-to-range.mjs.map",
+    "aws-site/node_modules/framer-motion/dist/es/render/dom/scroll/utils/offset-to-range.mjs",
+    "aws-site/node_modules/framer-motion/dist/es/render/dom/scroll/utils/get-timeline.mjs.map",
+    "aws-site/node_modules/framer-motion/dist/es/render/dom/scroll/utils/can-use-native-timeline.mjs.map",
+    "aws-site/node_modules/framer-motion/dist/es/render/dom/scroll/utils/get-timeline.mjs",
+    "aws-site/node_modules/framer-motion/dist/es/render/dom/scroll/utils/can-use-native-timeline.mjs",
+    "aws-site/node_modules/framer-motion/dist/es/render/dom/scroll/offsets/presets.mjs.map",
+    "aws-site/node_modules/framer-motion/dist/es/render/dom/scroll/offsets/offset.mjs.map",
+    "aws-site/node_modules/framer-motion/dom/README.md",
+    "aws-site/node_modules/framer-motion/client/README.md",
+    "aws-site/node_modules/bun-types/docs/README.md",
+    "aws-site/node_modules/@types/node/README.md",
+    "aws-site/node_modules/@types/react-dom/README.md",
+    "aws-site/node_modules/@types/react/README.md",
+    "aws-site/node_modules/@types/bun/README.md",
+    "aws-site/node_modules/undici-types/README.md",
+    "aws-site/node_modules/typescript/SECURITY.md",
+    "aws-site/node_modules/typescript/README.md",
+    "aws-site/node_modules/tslib/SECURITY.md",
+    "aws-site/node_modules/tslib/README.md",
+    "aws-site/node_modules/scheduler/README.md",
+    "aws-site/node_modules/react-dom/README.md",
+    "aws-site/node_modules/react/README.md",
+    "aws-site/node_modules/motion-utils/LICENSE.md",
+    "aws-site/node_modules/motion-dom/LICENSE.md",
+    "aws-site/node_modules/framer-motion/README.md",
+    "aws-site/node_modules/framer-motion/LICENSE.md",
+    "aws-site/node_modules/csstype/README.md",
+    "aws-site/node_modules/bun-types/README.md",
+    "aws-site/node_modules/bun-types/CLAUDE.md",
+    "aws-site/node_modules_off/framer-motion/dom/README.md",
+    "Attachments/SAA-v48-p831-pinpoint.png",
+    "Attachments/SAA-v48-p867-certification-levels.png",
+    "Attachments/SAA-v48-p866-exam-format.png",
+    "Attachments/SAA-v48-p857-trusted-advisor.png",
+    "Attachments/SAA-v48-p836-ssm-automation.png",
+    "Attachments/SAA-v48-p835-maintenance-windows.png",
+    "Attachments/SAA-v48-p834-patch-manager.png",
+    "Attachments/SAA-v48-p833-run-command.png",
+    "Attachments/SAA-v48-p832-session-manager.png",
+    "Attachments/SAA-v48-p829-cloudformation-service-role.png"
   ]
 }

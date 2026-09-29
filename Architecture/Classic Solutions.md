@@ -1,24 +1,18 @@
 # Classic Solutions Architecture
 
-## Stateless Web Application
-Start with one public EC2 instance, then evolve toward Route 53, an Alias record, an ELB, private EC2 instances, an Auto Scaling Group, and multiple AZs. Reserve capacity or use Savings Plans only after the workload is understood.
+Section introduction to the classic solutions architecture walkthroughs from the SAA-C03 course. Each walkthrough builds an architecture step by step and introduces the services needed at each stage.
 
-![[SAA-v48-p235-classic-stateless-alb.png]]
+## Walkthroughs
 
-## Stateful Web Application
-- Keep the web tier stateless so it can scale horizontally.
-- Sticky sessions preserve a user-to-instance relationship but can create imbalance.
-- Store session data in ElastiCache or DynamoDB and pass only a session ID in the cookie.
-- Store user data in RDS, use Read Replicas for read scaling, and Multi-AZ for failover.
-- Apply tiered security groups: Internet to load balancer, load balancer to EC2, EC2 to RDS and ElastiCache.
+- [[Architecture/Stateless Web App - WhatIsTheTime]]
+- [[Architecture/Stateful Web App - MyClothes]]
+- [[Architecture/WordPress on AWS]]
+- [[Architecture/Instantiating Applications Quickly]]
+- [[Architecture/Web App 3-Tier Architecture]]
 
-![[SAA-v48-p244-classic-session-cache.png]]
+## Related
 
-## WordPress and Shared Files
-- Put the web tier behind an ALB and ASG.
-- Use Aurora/RDS Multi-AZ for relational content and read replicas for reads.
-- Store shared uploads in EFS when multiple instances across AZs must access the same files; EBS is instance/AZ-bound.
-
-![[SAA-v48-p256-classic-wordpress-efs.png]]
+- [[Architecture/Architecture]]
+- [[Architecture/More Solutions Architecture]]
 
 Source slides: pp. 227-266.

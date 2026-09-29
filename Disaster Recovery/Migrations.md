@@ -1,23 +1,35 @@
 # AWS Migration Services
 
-## Elastic Disaster Recovery
-AWS Elastic Disaster Recovery continuously replicates physical, virtual, or cloud servers at block level into a low-cost staging area. During a disaster, launch target EC2 instances and perform failover; failback is supported after recovery.
+## On-Premises Strategy with AWS
 
-![[SAA-v48-p785-elastic-disaster-recovery.png]]
+- **Amazon Linux 2 AMI as a VM (.iso)** – run on VMware, KVM, VirtualBox, or Microsoft Hyper-V.
+- **VM Import / Export** – migrate existing applications into EC2, create a DR repository for on-premises VMs, and export VMs back from EC2.
+- **AWS Application Discovery Service** – gather information about on-premises servers to plan a migration, including server utilisation and dependency mappings; track with AWS Migration Hub.
+- **AWS Database Migration Service (DMS)** – replicate on-premises → AWS, AWS → AWS, and AWS → on-premises across many database technologies.
+- **AWS Application Migration Service (MGN)** – incremental replication of on-premises live servers to AWS.
 
-## Database Migration Service
-- AWS DMS migrates databases while the source remains available.
-- It supports homogeneous and heterogeneous migrations and ongoing Change Data Capture replication.
-- Sources and targets include on-premises databases, RDS, Aurora, Redshift, DynamoDB, S3, OpenSearch, Kinesis, Kafka, DocumentDB, Neptune, and others.
-- DMS runs replication tasks on a replication instance; Multi-AZ adds a synchronous standby.
-- AWS Schema Conversion Tool converts schemas between engines such as Oracle or SQL Server to Aurora or PostgreSQL. It is unnecessary when only moving the same engine to RDS.
+## Topics
 
-![[SAA-v48-p786-dms.png]]
+- [[Disaster Recovery/AWS Elastic Disaster Recovery]]
+- [[Disaster Recovery/Database Migration Service]]
+- [[Disaster Recovery/AWS Schema Conversion Tool]]
+- [[Disaster Recovery/AWS Application Discovery Service]]
+- [[Disaster Recovery/Application Migration Service]]
+- [[Disaster Recovery/VMware Cloud on AWS]]
 
-## Server and Data Migration
-- Application Discovery Service inventories servers, utilization, dependencies, and network connections.
-- Application Migration Service performs lift-and-shift rehosting with continuous replication.
-- VM Import/Export moves supported virtual machines between on-premises and EC2.
-- Use Snowball, Direct Connect, DataSync, or VPN based on the data size, transfer frequency, and time available.
+## Transferring Large Amounts of Data into AWS
 
-Source slides: pp. 785-801.
+Example: transfer 200 TB with a 100 Mbps internet connection.
+
+- **Over the internet / site-to-site VPN** – immediate to set up; 200 TB × 1000 GB × 1000 MB × 8 Mb / 100 Mbps = 16,000,000 s ≈ 185 days.
+- **Over Direct Connect 1 Gbps** – long one-time setup (over a month); 200 TB × 1000 GB × 8 Gb / 1 Gbps = 1,600,000 s ≈ 18.5 days.
+- **Over Snowball** – about 1 week for the end-to-end transfer; can be combined with DMS.
+- **For ongoing replication** – site-to-site VPN or Direct Connect with DMS or DataSync.
+
+## Related
+
+- [[Disaster Recovery/Disaster Recovery]]
+- [[Storage/Snowball]]
+- [[Storage/DataSync]]
+
+Source slides: pp. 793, 798-801.

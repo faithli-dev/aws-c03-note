@@ -1,14 +1,30 @@
 # AWS Storage Gateway
 
-Storage Gateway connects on-premises applications to AWS storage through a hybrid interface.
+Storage Gateway is a bridge between on-premises data and cloud data.
 
-- File Gateway exposes an NFS or SMB file share and stores objects in S3. Frequently accessed data is cached locally.
-- Volume Gateway presents iSCSI block volumes. Cached volumes keep primary data in S3; stored volumes keep the full dataset on premises and asynchronously back up snapshots to S3.
-- Tape Gateway presents a virtual tape library for backup applications and archives virtual tapes in S3 Glacier.
-- Storage Gateway supports scheduled snapshots and lets on-premises workloads keep using familiar protocols while AWS stores the durable copy.
+## Use Cases
 
-![[SAA-v48-p364-storage-gateway.png]]
+- Disaster recovery
+- Backup and restore
+- Tiered storage
+- On-premises cache and low-latency file access
 
-Use Storage Gateway for hybrid storage and backup. Use DataSync for managed bulk or recurring file transfer, and Snow devices for offline migration.
+## Types
 
-Source slides: pp. 362-369.
+- [[Storage/S3 File Gateway]]
+- [[Storage/Volume Gateway]]
+- [[Storage/Tape Gateway]]
+
+## Deployment
+
+Gateways can be deployed as a VM (VMware, Hyper-V, KVM), with a local cache, and communicate over the internet or Direct Connect with encryption in transit.
+
+![[SAA-v48-p368-storage-gateway-deployment.png]]
+
+## Related
+
+- [[Storage/Storage]]
+- [[Storage/Hybrid Cloud for Storage]]
+- [[Storage/Storage Comparison]]
+
+Source slides: pp. 364-368.

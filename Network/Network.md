@@ -8,3 +8,5 @@
 [[Network/Global Accelerator]]
 [[Network/Elastic Network Interfaces]]
 [[Network/Public/Elastic IP]]
+[[Network/Networking Costs in AWS]]
+[[Network/Unicast vs Anycast IP]]

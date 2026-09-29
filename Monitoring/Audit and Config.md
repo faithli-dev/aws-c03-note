@@ -1,33 +1,28 @@
 # CloudTrail and AWS Config
 
-## AWS CloudTrail
+## CloudWatch vs CloudTrail vs Config
 
-CloudTrail records API activity from the console, CLI, SDK, and AWS services for governance, audit, and investigation.
+- **CloudWatch** – performance monitoring (metrics, CPU, network) and dashboards; events and alerting; log aggregation and analysis.
+- **CloudTrail** – record API calls made within your account by everyone; define trails for specific resources; global service.
+- **Config** – record configuration changes; evaluate resources against compliance rules; get a timeline of changes and compliance.
 
-- Management events cover control-plane operations such as creating or deleting resources.
-- Data events cover high-volume operations such as S3 object access and Lambda invocations.
-- Insights detects unusual API activity and provisioning patterns.
-- Events are available for a limited period in the console; create a trail to deliver them to S3 for long-term retention and Athena analysis.
-- CloudWatch Logs, EventBridge, and SNS can react to selected events.
+![[SAA-v48-p617-cloudwatch-cloudtrail-config.png]]
 
-![[SAA-v48-p606-cloudtrail.png]]
+## Example: Elastic Load Balancer
 
-## AWS Config
+- **CloudWatch** – monitor incoming connections, visualise error codes as a percentage over time, build a dashboard for load balancer performance.
+- **Config** – track security group rules, track configuration changes, ensure an SSL certificate is always assigned (compliance).
+- **CloudTrail** – track who made any changes to the load balancer with API calls.
 
-- Config records resource configuration and changes over time and evaluates compliance.
-- Managed or custom rules check conditions such as public S3 buckets or unrestricted SSH.
-- Rules can evaluate on every configuration change or on a schedule.
-- Config does not prevent an action. Use IAM, SCP, or a resource policy for prevention; use Config and SSM Automation for detection and remediation.
-- Aggregate data across accounts and Regions, store snapshots in S3, and notify through EventBridge or SNS.
+## Topics
 
-![[SAA-v48-p613-config-rules.png]]
+- [[Monitoring/CloudTrail]]
+- [[Monitoring/AWS Config]]
+- [[Monitoring/CloudWatch]]
 
-![[SAA-v48-p614-config-resource.png]]
+## Related
 
-## Quick Comparison
-
-- CloudWatch: performance, metrics, logs, dashboards, alarms.
-- CloudTrail: who called which API and when.
-- Config: what a resource configuration was and whether it complied with a rule.
+- [[Monitoring/Monitoring]]
+- [[Integration/EventBridge]]
 
 Source slides: pp. 605-618.

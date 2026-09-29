@@ -1,0 +1,24 @@
+{
+  "name": "aws-tutorial-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "AWS 教學網站 — 每個 service 一頁，Bun + React + framer-motion，編譯成 standalone HTML",
+  "scripts": {
+    "dev": "bun run dev.ts",
+    "build": "bun run build.ts",
+    "typecheck": "tsc --noEmit",
+    "build:outside": "bash build-outside.sh"
+  },
+  "dependencies": {
+    "framer-motion": "^13.4.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "typescript": "^5.9.0"
+  }
+}

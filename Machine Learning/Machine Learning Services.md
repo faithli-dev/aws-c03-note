@@ -1,20 +1,35 @@
 # AWS Machine Learning Services
 
-Use managed ML services when the task is a known capability and a custom model is unnecessary.
+## Summary
 
-- Rekognition detects objects, labels, text, faces, scenes, and inappropriate content in images or videos.
-- Transcribe converts speech to text and can redact PII or identify the spoken language.
-- Polly converts text to speech; lexicons and SSML customize pronunciation and delivery.
-- Translate localizes text between languages.
-- Lex builds conversational bots with speech recognition and natural language understanding. Connect provides a cloud contact center and can invoke Lambda.
-- Comprehend performs NLP such as sentiment, key phrases, entities, topics, and language detection. Comprehend Medical detects PHI in clinical text.
-- SageMaker AI provides tools to build, train, tune, deploy, and monitor custom ML models.
-- Kendra provides ML-powered natural-language document search and answer extraction.
-- Personalize creates real-time recommendations from interaction data.
-- Textract extracts printed text, handwriting, forms, and tables from scanned documents.
+- **Rekognition** – face detection, labelling, celebrity recognition.
+- **Transcribe** – audio to text (for example subtitles).
+- **Polly** – text to audio.
+- **Translate** – translations.
+- **Lex** – build conversational bots, chatbots.
+- **Connect** – cloud contact centre.
+- **Comprehend** – natural language processing.
+- **SageMaker** – machine learning for every developer and data scientist.
+- **Kendra** – ML-powered search engine.
+- **Personalize** – real-time personalised recommendations.
+- **Textract** – detect text and data in documents.
 
-![[SAA-v48-p561-machine-learning-services.png]]
-![[SAA-v48-p567-rekognition.png]]
-![[SAA-v48-p571-polly-transcribe.png]]
+## Individual Notes
+
+- [[Machine Learning/Amazon Rekognition]]
+- [[Machine Learning/Amazon Transcribe]]
+- [[Machine Learning/Amazon Polly]]
+- [[Machine Learning/Amazon Translate]]
+- [[Machine Learning/Amazon Lex and Connect]]
+- [[Machine Learning/Amazon Comprehend]]
+- [[Machine Learning/Amazon Comprehend Medical]]
+- [[Machine Learning/Amazon SageMaker AI]]
+- [[Machine Learning/Amazon Kendra]]
+- [[Machine Learning/Amazon Personalize]]
+- [[Machine Learning/Amazon Textract]]
+
+## Related
+
+- [[Machine Learning/Machine Learning]]
 
 Source slides: pp. 560-574.
